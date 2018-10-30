@@ -1,0 +1,24 @@
+package raMavArt1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class FirstTest1 {
+First _obj;
+	@SuppressWarnings("deprecation")
+	@Test
+	public void test() {
+		 _obj = new First();
+		
+		 String str = _obj.HelloPrint();
+		 if (str.equals("HelloWorld"))
+			 System.out.println("pass");
+		 else
+			 org.junit.Assert.fail("FirstTestFailed");
+		 
+	}
+
+}
