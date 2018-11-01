@@ -10,7 +10,7 @@ public class FirstTest1 {
 First _obj;
 	
 	@Test
-	public void test() {
+	public void test1() {
 		 _obj = new First();
 		
 		 String str = _obj.HelloPrint();
@@ -19,6 +19,15 @@ First _obj;
 		 else
 			fail("FirstTestFailed");
 		 
+	}
+	@Test
+	public void test2()
+	{
+		 _obj = new First();
+			
+		 String str = _obj.HelloPrint();
+		 if (str.equals("Hello"))
+			 		fail("FirstTestFailed");
 	}
 
 }
