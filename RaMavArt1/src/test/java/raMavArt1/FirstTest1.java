@@ -29,5 +29,17 @@ First _obj;
 		 if (str.equals("Hello"))
 			 		fail("FirstTestFailed");
 	}
+	@Test
+	public void test3()
+	{
+		 _obj = new First();
+			
+		 String str = _obj.HelloPrint();
+		 if (str.equals("Hello"))
+			 System.out.println("pass");
+		 else
+			fail("FirstTestFailed");
+	}
+
 
 }
