@@ -26,7 +26,7 @@ First _obj;
 		 _obj = new First();
 			
 		 String str = _obj.HelloPrint();
-		 if (str.equals("Hello....."))
+		 if (str.equals("Hello"))
 			 		fail("FirstTestFailed");
 	}
 	@Test
